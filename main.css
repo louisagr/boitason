@@ -1,0 +1,50 @@
+/* GENERAL */
+html {
+  background: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Bahiana', cursive;
+
+}
+h1 {
+  font-size: 8em;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* NOTES */
+kbd {
+  display: block;
+  font-size: 3rem;
+}
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .2rem solid black;
+  border-radius: 5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+/* ACTION */
+.playing {
+  transform: scale(1.1);
+  border-color: white;
+  box-shadow: 0 0 1rem black;
+}
+.sound {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
